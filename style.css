@@ -2,6 +2,7 @@ html {
   font-size: 10px;
   background: url('https://images.unsplash.com/photo-1580719653258-26873fde0b4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') bottom center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 body,html {
@@ -13,15 +14,23 @@ body,html {
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  margin: auto;
   align-items: center;
   justify-content: center;
 }
 .keys2 {
   display: flex;
-  margin-top: -400px;
   align-items: center;
   justify-content: center;
+}
+
+.alignment{
+  display: flex;
+  flex: 1;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .key {
